@@ -1,0 +1,7 @@
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/results.txt
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/readme.md
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/main.py
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/Documents/resume.pdf
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/Documents/budget.xlsx
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/Documents/project_notes.txt
+/Users/dylanrhodes/Documents/all-coding/coding-bootcamp/editable-bootcamp-repo/week-6/W6-S2-Concepts/7_FileSystem/exercise/Documents/family_photo.jpg

@@ -1,0 +1,23 @@
+/* Custom Styles for overriding Bootstrap colors */
+:root {
+    --bg-primary:blue; 
+}
+
+.bg-primary {
+    color:yellow !important;
+}
+
+.btn-secondary {
+color:black !important;
+background-color:yellow !important;
+}
+
+.bg-secondary {
+ color:orange !important
+
+}
+
+.text-dark {
+    color:black !important
+
+}

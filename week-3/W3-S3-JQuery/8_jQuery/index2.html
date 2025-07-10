@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery CSS Manipulation</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- TODO: Add in the jQuery script  -->>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+
+    <div id="box1" class="box1">
+        <h1>BOX 1</h1>
+    </div>
+
+    <div id="box2" class="box2">
+        <h1>box2</h1>
+    </div>
+        
+        <input type="text" id="datepicker"><br><br>
+
+    <div class="theaccordion" id="accordion">
+        <h1>first accordion</h1>
+        <div>
+    <p>This is the text for the first accoridon</p>
+    </div>
+    <div>
+        <h3>Second accordion</h3>
+    </div>
+    <div>
+    <p>Hi, there, this is the second accorion</p>
+    </div>
+</div>
+
+<div class="modal" id="modal">
+    <p>Hi there, you've opened up the modal</p>
+</div>
+
+    <script>
+    $ (document).ready(function () {
+
+        $ (function() {
+            $('#box1').draggable();
+        } );
+
+        $ (function () {
+            $('#box2').resizable(); 
+        })
+
+        $ (function () {
+            $('#datepicker').datepicker(); 
+        })
+
+        $ (function () {
+            $('#accordion').accordion(); ({
+                collapsible:true
+            });
+        });
+
+        $ (function () {
+            $('#modal').dialog(); 
+        })
+    });
+    </script>
+</body>
+</html>

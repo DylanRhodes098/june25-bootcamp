@@ -1,0 +1,117 @@
+/* Basic Page Styles */
+:root {
+    --background-color: #ffffff;
+    --primary-color: #d90000;
+    --secondary-color: #fff3f3;
+    --third-color:#000000;
+    --my-border:thick solid white;
+    --my-font:arial;
+    --my-color:blue;
+    --my-size:24px; 
+}
+
+:root {
+    --dark-background-color:black;
+    --dark-primary-color:rgb(65, 65, 65);
+    --dark-secondary-color:rgb(46, 46, 46);
+    --dark-third-color:white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    /* Hardcoded white */
+    color: var(--third-color);
+    /* Hardcoded black */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: var(--primary-color);
+    /* Hardcoded red */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--background-color);
+    /* Hardcoded white */
+    font-weight: bold;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: var(--primary-color);
+    /* Hardcoded red */
+    color: var(--background-color);
+    /* Hardcoded white */
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    border: var(--my-border);
+}
+
+.header-image {
+    width: 100%;
+    
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: var(--background-color)
+    /* Hardcoded white */
+}
+
+img {
+    max-height:fit-content;
+    width: 100%;
+    
+}
+
+.box {
+    width: 40%;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    /* Light red background */
+    border: 2px solid var(--primary-color);
+    /* Hardcoded red border */
+    color: var(--primary-color);
+    /* Hardcoded red text */
+    text-align: center;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    color: var(--third-color)
+    /* Hardcoded black text */
+}
+
+a.option {
+    color: var(--primary-color);
+    /* Hardcoded red */
+    text-decoration: none;
+    width: 50%;
+}
