@@ -22,3 +22,5 @@ const PI = {
 };
 
 PI.value = 3.14; // Allowed
+
+console.log(PI.value)

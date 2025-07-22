@@ -17,6 +17,7 @@ body {
     display: flex;
 
     /* TODO: what happens when we change this? */
+    
     flex-direction: row;
     width: 80%;
     height: 300px;
@@ -26,7 +27,7 @@ body {
     /* Flexbox alignment properties */
     justify-content: space-around;
     /* TODO: flex-start, center, space-between */
-    align-items: center;
+    align-items: flex-start;
     /* TODO: flex-start, center, flex-end */
 }
 

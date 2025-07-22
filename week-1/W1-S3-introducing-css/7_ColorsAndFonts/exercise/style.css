@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(185, 185, 44);
     margin: 20px;
     padding: 0;
 }
@@ -13,12 +13,12 @@ header {
 }
 
 header h1 {
-    color: #333;
+    color: #000000;
 }
 
 header p {
     font-size: 18px;
-    color: #666;
+    color: #494949;
 }
 
 /* Exercise Box Styles */
@@ -26,13 +26,12 @@ header p {
     width: 80%;
     padding: 20px;
     margin: 20px auto;
-    border: 2px dashed #333;
+    border: 2px dashed #000000;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #969696;
     /* Default background color */
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     /* Default font */
-
         background-color: lightblue;
             font-family: Arial, Helvetica, sans-serif;
 }
@@ -43,11 +42,11 @@ header p {
     width: 80%;
     padding: 20px;
     margin: 20px auto;
-    border: 2px dashed #333;
+    border: 2px dashed #580000;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #ffc2c2;
     /* Default background color */
-    font-family: Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* Default font */
 
     background-color: lightblue;

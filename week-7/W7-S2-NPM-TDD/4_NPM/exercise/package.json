@@ -1,0 +1,27 @@
+{
+  "name": "dylanspackage",
+  "version": "1.0.0",
+  "description": "my first .json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanRhodes098/june25-bootcamp.git"
+  },
+  "keywords": [
+    "dylans",
+    "package"
+  ],
+  "author": "dylan rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanRhodes098/june25-bootcamp/issues"
+  },
+  "homepage": "https://github.com/DylanRhodes098/june25-bootcamp#readme",
+  "dependencies": {
+    "figlet": "^1.8.2"
+  }
+}

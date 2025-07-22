@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 // Define the port the server will listen on
-const PORT = 3001;
+const PORT = 3000;
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());

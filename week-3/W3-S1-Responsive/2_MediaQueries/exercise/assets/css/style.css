@@ -16,6 +16,8 @@ header, footer {
 header h1 {
     /* Add margin to the top and bottom of the heading */
     margin: 0.5em 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-style: italic;
 }
 
@@ -78,6 +80,7 @@ img {
     background-size: cover;
 
     /* add 50% opacity to the background image */
+    opacity: 50%;
 }
 
 .product {
@@ -104,22 +107,23 @@ button {
 
 /* TODO: describe what each of these rules do */
 @media screen and (min-width: 800px) {
+    /* increases padding on prodducts to 40px after min-width reaches 800px */
     .products {
         padding: 40px;
     }
-
+/* sets the product width to 300px after min-width reaches 800px */
     .product {
         width: 300px;
     }
-
+/* Implements a display block after min-width reaches 800px */
     .banner {
         display: block;
     }
-
+/* excempts the mobile version on using display block after min-width reaches 800px */
     #mobile-menu {
         display: none;
     }
-
+/* keeps the display block after min-width reaches 800px for desktop version */
     #desktop-menu {
         display: block;
     }

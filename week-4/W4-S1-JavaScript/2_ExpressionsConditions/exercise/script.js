@@ -18,7 +18,7 @@ console.log ("is 10 less than 25? ", islessthan);
 // 3. Strict vs. Value Comparison
 // TODO: Value comparison using '=='
 let comparison = num1 == 10
-console.log ("the following shoul dbe true ", comparison);
+console.log ("the following should be true ", comparison);
 
 // TODO: Strict comparison using '==='
 // 4. Conditional Statements

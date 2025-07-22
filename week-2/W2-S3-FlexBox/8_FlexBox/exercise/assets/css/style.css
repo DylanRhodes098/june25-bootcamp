@@ -16,6 +16,10 @@ header {
 /* Flexbox navigation */
 .navbar {
     /* TODO: explain the purpose of the following properties */
+    /* display flex triggers the flex-box tools. 
+    Justify-content space-between allows space between each box (not around).
+    bckground-color gives the navbar blue background. 
+    Padding gives the inside spacing around the box 10px padding*/
     display: flex;
     justify-content: space-between;
     background-color: #007BFF;
@@ -38,7 +42,8 @@ header {
 .content {
     
     /* TODO: explain the purpose of the following properties */
-    /*flex-wrap dictates how the boxes will behave when thinigs are changed. justifcy-conttent dictates the behaviour of the boxes in a column format,align-item will do this for rows. */ 
+    /*flex-wrap dictates how the boxes will behave when thinigs are changed. 
+    justifcy-conttent dictates the behaviour of the boxes in a column format,align-item will do this for rows. */ 
     flex-wrap:wrap;
     display: flex;
     align-content: space-around;
@@ -65,7 +70,8 @@ header {
     border-radius: 5px;
 
     /* TODO: explain the purpose of the following properties */
-    /*flex=grow, shrink anf basis. grow can either be 0, 1 or 2, shrink can be 0, 1 and basis can be a variety of metrics */
+    /*flex=grow, shrink anf basis. grow can either be 0, 1 or 2, 
+    shrink can be 0, 1 and basis can be a variety of metrics */
     flex: 2 2 100px;
 }
 

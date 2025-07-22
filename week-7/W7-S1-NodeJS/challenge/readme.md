@@ -38,3 +38,9 @@ As a developer, I want to create a modularized set of calculator functions that 
 
 - [ES6 Modules in Node.js](https://nodejs.org/docs/latest-v14.x/api/esm.html) - Learn how to export and import modules using ES6 syntax in Node.js.
 - [Node.js File System Module](https://nodejs.org/api/fs.html) - Official documentation for working with the file system in Node.js, including `appendFile`.
+
+const maths = require("./math");
+const add = maths.add
+const subtract = maths.subtract
+const multiply = maths.multiply
+const divide = maths.divide

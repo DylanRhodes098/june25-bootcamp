@@ -1,4 +1,5 @@
 /* TODO: what type of selector is this? */
+/* UTILITY SELECTOR */
 * {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@
 }
 
 /* TODO: what type of selector is this? */
+/* ELEMENT SELECTOR */
 h1 {
     color: blue;
 }
@@ -28,6 +30,7 @@ a {
 }
 
 /* TODO: what type of selector is this? */
+/* CLASS SELECTORS */
 .highlight {
     background-color: yellow;
     font-weight: bold;
@@ -46,6 +49,7 @@ a {
 }
 
 /* TODO: what type of selector is this? */
+/* ID SELECTORS */
 #uniqueDiv {
     color: red;
     font-size: 20px;

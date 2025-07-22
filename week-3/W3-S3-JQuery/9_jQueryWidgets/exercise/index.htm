@@ -53,7 +53,13 @@
 
     <!-- Autocomplete Input -->
     <p>Start typing a fruit: <input type="text" id="autocomplete" class="autocomplete"></p>
+    
+    <div id="dialog" title="Dylans dialog box">
+        <p>I have just created my first dialog box. YAY!</p>
+      </div>
 
+    <div id="progressbar">LOADING...</div>
+ 
     <script>
         $(document).ready(function () {
             // Draggable widget
@@ -70,6 +76,16 @@
             $("#autocomplete").autocomplete({
                 source: availableFruits
             });
+
+            $( function() {
+    $( "#dialog" ).dialog();
+  } );
+
+  $( function() {
+    $( "#progressbar" ).progressbar({
+      value: 37
+    });
+  } );
         });
     </script>
 

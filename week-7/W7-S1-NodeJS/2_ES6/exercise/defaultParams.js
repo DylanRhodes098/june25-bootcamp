@@ -7,3 +7,4 @@ console.log(greet()); // "Hello, Guest"
 
 const greet = (name = "Guest") => `Hello, ${name}`;
 console.log(greet()); // "Hello, Guest"
+

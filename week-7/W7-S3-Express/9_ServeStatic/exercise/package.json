@@ -9,9 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "## Challenge",
   "dependencies": {
     "express": "^4.21.2",
     "uuidv4": "^6.2.13"
-  }
+  },
+  "devDependencies": {}
 }

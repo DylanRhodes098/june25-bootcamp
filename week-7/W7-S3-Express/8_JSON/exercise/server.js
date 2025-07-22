@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require("uuid");
 const app = express();
 
 // Define the port the server will listen on
-const PORT = 3001;
+const PORT = 3002;
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());
@@ -61,6 +61,18 @@ app.get("/data/:id", (req, res) => {
 });
 
 // TODO: Handle PUT request to update data by ID
+app.put("/data/:id", (req, res) => {
+  // Checking if data exists 
+  const data = readData();
+  const item = data.find((item) => item.id === req.params.id);
+  if (!item) {
+    return res.status(404).json({ message: "Data not found" });
+  }
+  // Cloning an existing item and adding it to the json
+  data.push(item);
+  writeData(data);
+  res.json({ message: "success", data: item });
+});
 
 // TODO: Handle DELETE request to delete data by ID
 

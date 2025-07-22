@@ -17,3 +17,9 @@ const sum = (a) => a; // Arrow function
 const nums = [1, 2, 3, 4];
 const squares = nums.map((n) => n * n); // Cleaner syntax for map
 console.log(squares); // [1, 4, 9, 16]
+
+const numbers = (a, b) => { 
+  return a + b };
+  
+console.log(numbers(3, 4)) 
+

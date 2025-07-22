@@ -4,7 +4,7 @@ const { getUserRepos } = require("../github");
 
 // TODO: what's the difference between jest.mock and jest.spyOn?
 // Mock Axios
-jest.mock("axios");
+jest.spyOn("axios");
 
 describe("getUserRepos", () => {
   test("should return the list of repos for a valid user", async () => {

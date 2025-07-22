@@ -1,23 +1,18 @@
 {
-  "name": "example",
+  "name": "challenge",
   "version": "1.0.0",
+  "description": "## Challenge",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
     "start": "node index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
   "dependencies": {
-    "test": "^3.3.0"
+    "jest": "^30.0.4"
   }
 }

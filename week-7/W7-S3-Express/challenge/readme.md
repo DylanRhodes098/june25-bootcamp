@@ -24,7 +24,7 @@ Once complete, you should **deploy** your application on **Render.com** and prov
 2. A link to your **deployed application** on Render
 
 For guidance on deployment, refer to this article:  
-🔗 [Deploying a Node.js Server Application on Render](https://medium.com/@harshpatil3775/deploying-a-node-js-server-application-on-render-com-5a123b33862d)
+🔗 [Deploying a Node.js Server Application on Render](c)
 
 ---
 
